@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: gainsboro;
+    overflow-x: hidden;
+
+}
+header{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+header{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    width: 620px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+.square{
+    width: 120px;
+    height: 120px;
+    border-right: 1px solid rgb(85, 84, 84);
+    border-bottom: 1px solid rgb(85, 84, 84);
+    border-right: 1px solid rgb(85, 84, 84);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#square1 #dummy1{
+    display: inline;
+}
+
+.dummy{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    transition: 1s !important;
+    display:none;
+}
+.bomb{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    transition: 1s !important;
+    display: none;
+}
+
+#square5,
+#square10,
+#square15,
+#square15,
+#square20,
+#square25{
+    border-right: none;
+}
+
+#square21,
+#square22,
+#square23,
+#square24,
+#square25{
+    border-bottom: none;
+}
